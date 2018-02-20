@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/NXPNFCProject/" name="NXP"/>
-  <remote fetch="https://android.googlesource.com/" name="aosp"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <remote fetch="https://github.com/sonyxperiadev/" name="sony"/>
   <remote fetch="https://github.com/mer-hybris/" name="sony-patches" revision="sony-aosp-6.0.1_r80-20170902"/>
   
-  <default remote="aosp" revision="refs/tags/android-6.0.1_r80" sync-j="4"/>
   
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" remote="NXP" revision="16fca3e60bf4e3890ddddeb7c119a42ef03a90d6" upstream="master"/>
   <project name="android_bionic" path="bionic" remote="hybris-patches" revision="8ffd793ffb9d02974192ccfff78eb501ffd61b54" upstream="hybris-sony-aosp-6.0.1_r80-20170902"/>
